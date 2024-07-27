@@ -42,6 +42,12 @@ You can fix the error by installing a newer version of pyglet:
 ```bash
 $ pip3 install pyglet==1.5.20
 ```
+or
+```bash
+$ sudo apt update
+$ sudo apt install python3-pyglet
+$ sudo apt install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
 And you might see an error similar to
 ```
 f110-gym 0.2.1 requires pyglet<1.5, but you have pyglet 1.5.20 which is incompatible.
